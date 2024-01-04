@@ -29,7 +29,7 @@ bool isAlphabet(char value, string* a){
   return false;
 }
 void Caesar_Cipher(){
-	print("A Caesarean Cipher Encryption and Decryption Programme by Osazuwa.E.O \nPositive shifts can be used to encrypt, while negative shifts can be used for decryption. \nTo quit, simply type in quit as your shift value.");
+	print("A Caesarean Cipher Encryption and Decryption Programme by Osazuwa.E.O \nPositive shifts can be used to encrypt, while negative shifts can be used for decryption.");
   //Unordered map to store alphabets
   unordered_map<char, int> letters;
   string alphabets = "abcdefghijklmnopqrstuvwxyz";
