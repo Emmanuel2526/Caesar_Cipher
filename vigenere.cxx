@@ -10,6 +10,7 @@ void Vigenere_Cipher();
 string removeSpace(string value);
 string input(string prompt);
 int main(){
+  //Cipher Function.
   Vigenere_Cipher();
   return 0;
 }
